@@ -1,0 +1,96 @@
+body{
+    font-family:Arial,Verdana;
+    background-color:#000000;
+    color:#FFFFFF;
+    margin:20px 20px 0 20px;
+}
+
+h1{
+    font-size:42px;
+    text-align:center;
+    padding:15px;
+}
+
+h2{
+    font-size:30px;
+    color:#0D0D0D;
+}
+
+p{
+    font-size:24px;
+    padding:10px 0 0 10px;
+}
+
+img{
+    width:250px;
+    display:block;
+    margin:auto;
+    border: 10px dashed #FFFFFF;
+}
+
+div{
+    min-height:125px;
+    padding:20px;
+    border:3px solid #FFFFFF;
+}
+
+.introduction{
+    border-radius:15px;
+    margin-top:15px;
+    line-height:2;
+}
+
+.red, .blue, .yellow, .green {
+    border: none;
+}
+
+.red{
+    background-color:#FF0000;
+    text-align:right;
+    margin-left:50px;
+    border-bottom:2px solid #FFFFFF;
+    border-left:5px solid #FFFFFF;
+}
+
+.blue{
+    background-color:#0000FF;
+    text-align:left;
+    margin-right:50px;
+    border-right:5px solid #FFFFFF;
+    border-top:2px solid #FFFFFF;
+    color:#C4C4C4;
+}
+
+div.blue h2{
+    color:#C4C4C4;
+}
+
+.yellow{
+    background-color:#FFFF00;
+    text-align:right;
+    margin-left:50px;
+    border-bottom:2px solid #FFFFFF;
+    border-left:5px solid #FFFFFF;
+    color:#0D0D0D;
+}
+
+div.yellow p{
+    color: #707070;
+}
+
+.green{
+    background-color:#008500;
+    text-align:left;
+    margin-right:50px;
+    border-right:5px solid #FFFFFF;
+    border-top:2px solid #FFFFFF;
+}
+
+footer{
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    border:5px solid #FFFFFF;
+    text-align:right;
+    font-size:20px;
+    padding:15px 15px 15px 0;
+}
